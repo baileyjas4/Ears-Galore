@@ -45,6 +45,6 @@ Users can view the display and have limited interaction with the landing page
 * If unable to view please go live locally through VS Code
 
 ## <a name="author"></a>About The Authors
-We build applications and mini projects tied to my various interests. I look for creative solutions to real world problems and think of technical ways to address them. While no application is ever perfect I find joy in the process and all my final products!
+We build applications and mini projects tied to our various interests. We look for creative solutions to real world problems and think of technical ways to address them. While no application is ever perfect we find joy in the process and all our final products!
     
 ## Works Cited:
