@@ -232,3 +232,54 @@ h1, h2, h3 {
         width: 280px;
     }
 }
+
+.mobile-menu.open {
+    display: flex;
+}
+
+body.dark-mode {
+    background: #1a1a1a;
+    color: var(--cream);
+}
+
+body.dark-mode .navbar {
+    background: #3a3a3a;
+}
+
+body.dark-mode .nav-links a {
+    color: var(--gold);
+}
+
+body.dark-mode .logo {
+    color: var(--cream);
+}
+
+body.dark-mode .hero-text h1 {
+    color: var(--gold);
+}
+
+body.dark-mode .card {
+    background: #2b2b2b;
+    border-color: var(--gold);
+    color: var(--cream);
+}
+
+body.dark-mode .cta-section {
+    background: #3c3c3c;
+}
+
+body.dark-mode .modal-content {
+    background: #2b2b2b;
+    color: var(--cream);
+}
+
+body.dark-mode .cta-btn.white {
+    background: #2b2b2b;
+    color: var(--cream);
+    border-color: var(--gold);
+}
+
+body.dark-mode .cta-btn {
+    background: var(--gold);
+    color: #2e2e2e;
+}
