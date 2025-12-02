@@ -57,3 +57,15 @@ themeToggle.addEventListener("click", () => {
     }
 });
 
+//to make scrolling smoother
+document.querySelectorAll("a[href^='#']").forEach(link => {
+    link.addEventListener("click", function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute("href"))
+            .scrollIntoView({ behavior: "smooth" });
+
+        // Close the mobile menu when selecting a link
+        mobileMenu.classList.remove("open");
+        hamburger.classList.remove("active");
+    });
+});
